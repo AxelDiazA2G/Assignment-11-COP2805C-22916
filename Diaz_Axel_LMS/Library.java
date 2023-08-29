@@ -2,8 +2,15 @@ import java.io.*;
 import java.util.*;
 import java.util.regex.Pattern;
 
-/**
- * Represents a library with a collection of books.
+/**Axel Diaz | CEN 3024C Software Development | - CRN: 17125
+ * Main
+ * The Library class represents a collection of books and provides methods 
+ * for managing this collection. It serves as the core data structure in a 
+ * Library Management System. The class allows for adding books from a file, 
+ * removing books by their ID, listing all books with pagination, and 
+ * retrieving attributes of the book collection, such as the total 
+ * number of books, maximum book ID, maximum title length, and maximum 
+ * author name length.
  */
 public class Library {
                private ArrayList<Book> books;

@@ -1,6 +1,14 @@
 import java.io.*;
 import java.util.*;
 
+
+/**Axel Diaz | CEN 3024C Software Development | - CRN: 17125
+ * Main
+ * The Main class serves as the entry point for a Library Management System.
+ * The primary objective of this program is to provide a console-based interface
+ * for managing a library of books. Users can import books from a file, remove books by ID,
+ * list all books, and exit the program.
+ */
 public class Main {
                private static List<String> log = new ArrayList<>();
                private static final int MIN_TABLE_WIDTH = 80;
